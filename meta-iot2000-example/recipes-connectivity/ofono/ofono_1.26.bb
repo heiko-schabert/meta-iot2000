@@ -1,6 +1,6 @@
 FILESEXTRAPATHS_prepend := "${COREBASE}/meta/recipes-connectivity/ofono/ofono:"
 
-require recipes-connectivity/ofono/ofono.inc
+require ofono.inc
 
 SRC_URI  = "\
   ${KERNELORG_MIRROR}/linux/network/${BPN}/${BP}.tar.xz \
